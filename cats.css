@@ -1,0 +1,119 @@
+/*  Ifound the a:hover orange squiggly code at Css-tricks.com! */
+a {
+  font-family: 'Bungee', cursive;
+  font-size: 15pt;
+  color: #0B2559;
+  text-decoration: none;
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+}
+a:hover {
+  color: #0B2559;
+  font-size: 15pt;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+}
+
+body {
+  border: 10px solid #0B2559;
+  width: 700px;
+  padding: 100px;
+  padding-top: 0;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F2CB57;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+button {
+  background-color: #DB8812;
+  border-radius: 15px;
+  border-color: #0B2559;
+  color: #0B2559;
+  padding: 10px;
+  font-family: 'Bungee', cursive;
+}
+button:hover {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+}
+
+
+div.homepage {
+  border-bottom: 100px double #0B2559;
+  letter-spacing: 1px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width: 640px;
+}
+
+div.description {
+  font-family: 'Arima Madurai', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  text-align: left;
+  width: 640px;
+}
+div.home {
+  border-bottom: 100px solid #0B2559;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 640px;
+}
+div.home-2 {
+  border-bottom: 50px solid #DB8812;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width: 640px;
+}
+
+h1 {
+  border-bottom: 100px double #DB8812;
+  color: #000;
+  font-family: 'Bungee', cursive;
+  font-size: 36pt;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width: 640px;
+  
+}
+
+html {
+background: #DB8812; 
+}
+
+img {
+  border: 20px solid #A67F0A;
+  border-radius: 15px;
+}
+
+p {
+  font-size: 15pt;
+  line-height: 20pt; 
+}
+
+#cat-noise {
+  display: none;
+}
+
+
+
+
